@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Year Countdown | 2025</title>
+        <link rel="stylesheet" href="styles/particleStyle.css">
+        <link rel="stylesheet" href="styles/yearStyle.css">
+    </head>
+    <body>
+        <div id="input0">
+            <h1 id="h0H">Siapa Namamu?</h1>
+            <input type="text" placeholder="Nickname" id="nickname" min="5" minlength="5" max="8" maxlength="8" required>
+            <button type="button" id="buttonNext0" onclick="buttonNext0()">Submit!</button>
+            <p id="pAccess">Namamu, Udah Tersimpan!</p>
+            <p id="pDenied">Isiin Dulu Nama Kamu!</p>
+        </div>
+
+        <div id="input1">
+            <h1 id="h1H">Hobimu Apa?</h1>
+            <select id="hobbyOption0" onclick="hobbyChoose0()">
+                <option value="OptionHChoose" aria-disabled="true" disabled selected>-Pilih-</option>
+                <option value="OptionH14">Playing Musical</option>
+                <option value="OptionH15">Playing Games</option>
+                <option value="OptionH18">Photography</option>
+                <option value="OptionH1">Traveling</option>
+                <option value="OptionH2">Sleeping</option>
+                <option value="OptionH12">Painting</option>
+                <option value="OptionH19">Swimming</option>
+                <option value="OptionH20">Blogging</option>
+                <option value="OptionH3">Singing</option>
+                <option value="OptionH4">Cooking</option>
+                <option value="OptionH17">Drawing</option>
+                <option value="OptionH16">Writing</option>
+                <option value="OptionH5">Reading</option>
+                <option value="OptionH6">No life</option>
+                <option value="OptionH7">Dancing</option>
+                <option value="OptionH8">Fishing</option>
+                <option value="OptionH9">Sports</option>
+                <option value="OptionH11">Diving</option>
+                <option value="OptionH13">Hiking</option>
+                <option value="OptionH10">Movies</option>
+            </select>
+
+            <select id="hobbyOption1" onclick="hobbyChoose0()">
+                <option value="OptionHChoose" aria-disabled="true" disabled selected>-Pilih-</option>
+                <option value="OptionH14">Playing Musical</option>
+                <option value="OptionH15">Playing Games</option>
+                <option value="OptionH18">Photography</option>
+                <option value="OptionH1">Traveling</option>
+                <option value="OptionH2">Sleeping</option>
+                <option value="OptionH12">Painting</option>
+                <option value="OptionH19">Swimming</option>
+                <option value="OptionH20">Blogging</option>
+                <option value="OptionH3">Singing</option>
+                <option value="OptionH4">Cooking</option>
+                <option value="OptionH17">Drawing</option>
+                <option value="OptionH16">Writing</option>
+                <option value="OptionH5">Reading</option>
+                <option value="OptionH6">No life</option>
+                <option value="OptionH7">Dancing</option>
+                <option value="OptionH8">Fishing</option>
+                <option value="OptionH9">Sports</option>
+                <option value="OptionH11">Diving</option>
+                <option value="OptionH13">Hiking</option>
+                <option value="OptionH10">Movies</option>
+            </select>
+
+            <select id="hobbyOption2" onclick="hobbyChoose0()">
+                <option value="OptionHChoose" aria-disabled="true" disabled selected>-Pilih-</option>
+                <option value="OptionH14">Playing Musical</option>
+                <option value="OptionH15">Playing Games</option>
+                <option value="OptionH18">Photography</option>
+                <option value="OptionH1">Traveling</option>
+                <option value="OptionH2">Sleeping</option>
+                <option value="OptionH12">Painting</option>
+                <option value="OptionH19">Swimming</option>
+                <option value="OptionH20">Blogging</option>
+                <option value="OptionH3">Singing</option>
+                <option value="OptionH4">Cooking</option>
+                <option value="OptionH17">Drawing</option>
+                <option value="OptionH16">Writing</option>
+                <option value="OptionH5">Reading</option>
+                <option value="OptionH6">No life</option>
+                <option value="OptionH7">Dancing</option>
+                <option value="OptionH8">Fishing</option>
+                <option value="OptionH9">Sports</option>
+                <option value="OptionH11">Diving</option>
+                <option value="OptionH13">Hiking</option>
+                <option value="OptionH10">Movies</option>
+            </select>
+            <button type="button" id="buttonNext1" onclick="buttonNext1()">Submit!</button>
+            <button type="button" id="loading0">Saving..</button>
+        </div>
+
+        <div id="particles"></div>
+
+        <script src="scripts/particleScript.js"></script>
+        <script src="scripts/yearScript.js"></script>
+    </body>
+</html>
